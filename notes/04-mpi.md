@@ -92,7 +92,7 @@ int main(int argc, char *argv[]) {
 * `MPI_Send(&buffer, count, type, dest, tag, comm)` — blocking send
 * `MPI_Isend(&buffer, count, type, dest, tag, comm, request)` — non-blocking send
 * `MPI_Recv(&buffer, count, type, source, tag, comm, status)` — blocking receive
-* `MPI_Recv(&buffer, count, type, source, tag, comm, request)` — non-blocking receive
+* `MPI_IRecv(&buffer, count, type, source, tag, comm, request)` — non-blocking receive
 
 ### Arguments
 - `buffer` — variable to be sent/modified
